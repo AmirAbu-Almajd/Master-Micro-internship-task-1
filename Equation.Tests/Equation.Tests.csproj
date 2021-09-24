@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Equation Testcases.txt" />
-    <Content Include="temp.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

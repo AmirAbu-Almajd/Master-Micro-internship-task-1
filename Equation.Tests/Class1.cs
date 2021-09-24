@@ -41,14 +41,7 @@ namespace Equation.Tests
                 obj.equation = equations[i];
                 bool pass = obj.validateEquation();
                 obj.calculateYvalues();
-                StreamWriter sw = new StreamWriter("D:/Coding/Master Micro internship task 1/Equation.Tests/temp.txt");
-                sw.WriteLine(obj.equation);
-                sw.WriteLine("Minimum X: " + obj.minimumX.ToString());
-                sw.WriteLine("Maximum X: " + obj.maximumX.ToString());
-                sw.WriteLine("Minimum Y: " + obj.y1.ToString());
-                sw.WriteLine("Maximum Y: " + obj.y2.ToString());
-                sw.WriteLine(pass.ToString());
-                sw.Close();
+
                 Assert.Multiple(() =>
                 {
                     Assert.AreEqual(yValues[i * 2], obj.y1, "Y minimum");

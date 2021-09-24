@@ -33,6 +33,11 @@ namespace Master_Micro_internship_task_1
         {
             if (validateEmptyFields())
                 return;
+            if (maxX.Text == "-" || minX.Text == "-")
+            {
+                MessageBox.Show("You need to input actual numbers in the X values fields", "X Values Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             minimumX = int.Parse(minX.Text);
             maximumX = int.Parse(maxX.Text);
             equation = equationBox.Text.ToString();
@@ -289,6 +294,7 @@ namespace Master_Micro_internship_task_1
 
         private bool validateXvalues()
         {
+
             if (minimumX == maximumX)
             {
                 MessageBox.Show("The minimum and maximum values of X can't be equal!", "X Values Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -326,22 +332,27 @@ namespace Master_Micro_internship_task_1
         private void validateText(object sender, EventArgs e)
         {
             TextBox temp = (TextBox)sender;
-            var isNumeric = int.TryParse(temp.Text, out int n);
-            if (!isNumeric)
+            string tempText = temp.Text.ToString();
+            string allowedCharacters = "012345678910";
+            for (int i = 0; i < tempText.Length; i++)
             {
-                temp.Text = "";
-                sender = temp;
-            }
-            else
-            {
-                string tempNum = temp.Text.ToString();
-                if (tempNum[0] == '0' && tempNum.Length > 1)
+                if (i != 0 && !allowedCharacters.Contains(tempText[i]))
                 {
-                    tempNum = tempNum.Remove(0, 1);
-                    temp.Text = tempNum;
-                    sender = temp;
+                    tempText = tempText.Remove(i, 1);
+                    i--;
+                }
+                else if (i == 0 && tempText[i] == '-')
+                {
+                    continue;
+                }
+                else if (i == 0 && (!allowedCharacters.Contains(tempText[i]) || tempText[i] == '0'))
+                {
+                    tempText = tempText.Remove(i, 1);
+                    i--;
                 }
             }
+            temp.Text = tempText;
+            sender = temp;
         }
 
         private void validateEquationText(object sender, EventArgs e)

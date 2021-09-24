@@ -1,6 +1,0 @@
--3/4*x+6
-Minimum X: 0
-Maximum X: 8
-Minimum Y: 6
-Maximum Y: 0
-False
