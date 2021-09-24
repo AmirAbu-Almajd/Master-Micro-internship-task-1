@@ -1,0 +1,12 @@
+D:\Coding\Master Micro internship task 1\Equation.Tests\bin\Debug\Equation.Tests.dll
+D:\Coding\Master Micro internship task 1\Equation.Tests\bin\Debug\Equation.Tests.pdb
+D:\Coding\Master Micro internship task 1\Equation.Tests\bin\Debug\Master Micro internship task 1.exe
+D:\Coding\Master Micro internship task 1\Equation.Tests\bin\Debug\nunit.framework.dll
+D:\Coding\Master Micro internship task 1\Equation.Tests\bin\Debug\Master Micro internship task 1.pdb
+D:\Coding\Master Micro internship task 1\Equation.Tests\bin\Debug\Master Micro internship task 1.exe.config
+D:\Coding\Master Micro internship task 1\Equation.Tests\bin\Debug\nunit.framework.xml
+D:\Coding\Master Micro internship task 1\Equation.Tests\obj\Debug\Equation.Tests.csprojAssemblyReference.cache
+D:\Coding\Master Micro internship task 1\Equation.Tests\obj\Debug\Equation.Tests.csproj.CoreCompileInputs.cache
+D:\Coding\Master Micro internship task 1\Equation.Tests\obj\Debug\Equation.Tests.csproj.CopyComplete
+D:\Coding\Master Micro internship task 1\Equation.Tests\obj\Debug\Equation.Tests.dll
+D:\Coding\Master Micro internship task 1\Equation.Tests\obj\Debug\Equation.Tests.pdb

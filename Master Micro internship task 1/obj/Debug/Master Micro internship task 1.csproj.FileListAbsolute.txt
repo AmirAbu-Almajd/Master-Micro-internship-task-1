@@ -1,0 +1,10 @@
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\bin\Debug\Master Micro internship task 1.exe.config
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\bin\Debug\Master Micro internship task 1.exe
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\bin\Debug\Master Micro internship task 1.pdb
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\obj\Debug\Master Micro internship task 1.csprojAssemblyReference.cache
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\obj\Debug\Master_Micro_internship_task_1.Form1.resources
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\obj\Debug\Master_Micro_internship_task_1.Properties.Resources.resources
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\obj\Debug\Master Micro internship task 1.csproj.GenerateResource.cache
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\obj\Debug\Master Micro internship task 1.csproj.CoreCompileInputs.cache
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\obj\Debug\Master Micro internship task 1.exe
+D:\Coding\Master Micro internship task 1\Master Micro internship task 1\obj\Debug\Master Micro internship task 1.pdb

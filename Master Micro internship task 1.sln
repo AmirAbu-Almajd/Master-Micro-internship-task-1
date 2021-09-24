@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Master Micro internship task 1", "Master Micro internship task 1\Master Micro internship task 1.csproj", "{040AD7C9-271B-40D6-B20D-136FF760597B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equation.Tests", "Equation.Tests\Equation.Tests.csproj", "{AF107882-FBE6-4C78-841F-98C86249E197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{040AD7C9-271B-40D6-B20D-136FF760597B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040AD7C9-271B-40D6-B20D-136FF760597B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040AD7C9-271B-40D6-B20D-136FF760597B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040AD7C9-271B-40D6-B20D-136FF760597B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF107882-FBE6-4C78-841F-98C86249E197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF107882-FBE6-4C78-841F-98C86249E197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF107882-FBE6-4C78-841F-98C86249E197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF107882-FBE6-4C78-841F-98C86249E197}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D5285B9-1988-43FC-A0FB-3A8494541602}
+	EndGlobalSection
+EndGlobal
