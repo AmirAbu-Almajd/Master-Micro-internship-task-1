@@ -333,7 +333,7 @@ namespace Master_Micro_internship_task_1
         {
             TextBox temp = (TextBox)sender;
             string tempText = temp.Text.ToString();
-            string allowedCharacters = "012345678910";
+            string allowedCharacters = "0123456789";
             for (int i = 0; i < tempText.Length; i++)
             {
                 if (i != 0 && !allowedCharacters.Contains(tempText[i]))
@@ -345,7 +345,7 @@ namespace Master_Micro_internship_task_1
                 {
                     continue;
                 }
-                else if (i == 0 && (!allowedCharacters.Contains(tempText[i]) || tempText[i] == '0'))
+                else if (i == 0 && (!allowedCharacters.Contains(tempText[i]) || (tempText[i] == '0' && tempText.Length > 1)))
                 {
                     tempText = tempText.Remove(i, 1);
                     i--;
@@ -359,7 +359,7 @@ namespace Master_Micro_internship_task_1
         {
             TextBox temp = (TextBox)sender;
             string tempText = temp.Text.ToString();
-            string allowedCharacters = "012345678910x*^/+-";
+            string allowedCharacters = "0123456789x*^/+-";
             for (int i = 0; i < tempText.Length; i++)
             {
                 if (!allowedCharacters.Contains(tempText[i]))
